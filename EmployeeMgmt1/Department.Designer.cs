@@ -193,7 +193,7 @@ namespace EmployeeMgmt1
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(107, 25);
             this.label4.TabIndex = 40;
-            this.label4.Text = "Employee";
+            this.label4.Text = "Employee"; 
             // 
             // label5
             // 
