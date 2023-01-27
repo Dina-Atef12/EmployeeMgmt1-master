@@ -206,7 +206,7 @@ namespace EmployeeMgmt1
             this.label5.TabIndex = 42;
             this.label5.Text = "Departments"; 
             // 
-            // pictureBox3
+            // pictureBox3 
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.White;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
