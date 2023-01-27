@@ -205,7 +205,7 @@
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
             // 
-            // GenCb
+            // GenCb 
             // 
             this.GenCb.FormattingEnabled = true;
             this.GenCb.Items.AddRange(new object[] {
