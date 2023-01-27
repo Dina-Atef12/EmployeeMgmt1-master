@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace EmployeeMgmt1
 {
-    public partial class Salary : Form
+    public partial class Salary : Form 
     {
         Functions Con;
         public Salary()
@@ -106,6 +106,11 @@ namespace EmployeeMgmt1
             login Obj = new login();
             Obj.Show();
             this.Hide();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
