@@ -10,7 +10,7 @@ namespace EmployeeMgmt1
 {
     internal class Functions
     {
-        private SqlConnection Con; 
+        private SqlConnection Con;
         private SqlCommand Cmd;
         private DataTable dt;
         private SqlDataAdapter sda;
