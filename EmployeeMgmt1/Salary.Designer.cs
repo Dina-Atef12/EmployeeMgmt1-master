@@ -102,6 +102,7 @@ namespace EmployeeMgmt1
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 31;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // panel2
             // 
@@ -166,6 +167,7 @@ namespace EmployeeMgmt1
             this.label2.Size = new System.Drawing.Size(146, 25);
             this.label2.TabIndex = 21;
             this.label2.Text = "Mange Salary";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
@@ -274,6 +276,7 @@ namespace EmployeeMgmt1
             this.label9.Size = new System.Drawing.Size(134, 25);
             this.label9.TabIndex = 50;
             this.label9.Text = "Departments";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // pictureBox3
             // 

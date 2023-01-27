@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Employees));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -88,7 +88,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(369, 25);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Employee mangement system version 10"; 
+            this.label1.Text = "Employee mangement system version 10";
             // 
             // label2
             // 
@@ -99,7 +99,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(179, 25);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Mange Employee"; 
+            this.label2.Text = "Mange Employee";
             // 
             // label5
             // 
@@ -110,7 +110,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(224, 25);
             this.label5.TabIndex = 10;
-            this.label5.Text = "Employee Department"; 
+            this.label5.Text = "Employee Department";
             // 
             // label6
             // 
@@ -121,14 +121,14 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(166, 25);
             this.label6.TabIndex = 6;
-            this.label6.Text = "Employee name"; 
+            this.label6.Text = "Employee name";
             this.label6.Click += new System.EventHandler(this.label3_Click);
             // 
-            // EmpNameTb 
+            // EmpNameTb
             // 
             this.EmpNameTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EmpNameTb.Location = new System.Drawing.Point(32, 206);
-            this.EmpNameTb.Name = "EmpNameTb"; 
+            this.EmpNameTb.Name = "EmpNameTb";
             this.EmpNameTb.Size = new System.Drawing.Size(304, 30);
             this.EmpNameTb.TabIndex = 7;
             this.EmpNameTb.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
@@ -142,7 +142,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(129, 25);
             this.label7.TabIndex = 8;
-            this.label7.Text = "Date of birth"; 
+            this.label7.Text = "Date of birth";
             // 
             // label8
             // 
@@ -153,7 +153,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(184, 25);
             this.label8.TabIndex = 8;
-            this.label8.Text = "Employee Gander"; 
+            this.label8.Text = "Employee Gander";
             // 
             // label3
             // 
@@ -172,12 +172,12 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Teal;
             this.label4.Location = new System.Drawing.Point(27, 483);
-            this.label4.Name = "label4"; 
+            this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(229, 25);
             this.label4.TabIndex = 8;
-            this.label4.Text = "Employee Daily Salary"; 
+            this.label4.Text = "Employee Daily Salary";
             // 
-            // DailySalTb 
+            // DailySalTb
             // 
             this.DailySalTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DailySalTb.Location = new System.Drawing.Point(32, 511);
@@ -194,7 +194,7 @@
             this.panel2.Size = new System.Drawing.Size(1388, 29);
             this.panel2.TabIndex = 12;
             // 
-            // pictureBox1 
+            // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Teal;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
@@ -205,47 +205,47 @@
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
             // 
-            // GenCb 
+            // GenCb
             // 
             this.GenCb.FormattingEnabled = true;
             this.GenCb.Items.AddRange(new object[] {
             "Male",
             "Female"});
             this.GenCb.Location = new System.Drawing.Point(32, 264);
-            this.GenCb.Name = "GenCb"; 
+            this.GenCb.Name = "GenCb";
             this.GenCb.Size = new System.Drawing.Size(304, 33);
             this.GenCb.TabIndex = 14;
             this.GenCb.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // DepCb 
+            // DepCb
             // 
             this.DepCb.FormattingEnabled = true;
             this.DepCb.Location = new System.Drawing.Point(32, 328);
-            this.DepCb.Name = "DepCb"; 
+            this.DepCb.Name = "DepCb";
             this.DepCb.Size = new System.Drawing.Size(304, 33);
             this.DepCb.TabIndex = 15;
             // 
-            // DOBTb 
+            // DOBTb
             // 
             this.DOBTb.CalendarTitleBackColor = System.Drawing.SystemColors.ControlText;
             this.DOBTb.CalendarTitleForeColor = System.Drawing.Color.AliceBlue;
             this.DOBTb.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.DOBTb.Location = new System.Drawing.Point(32, 389);
-            this.DOBTb.Name = "DOBTb"; 
+            this.DOBTb.Name = "DOBTb";
             this.DOBTb.Size = new System.Drawing.Size(304, 30);
             this.DOBTb.TabIndex = 16;
             // 
-            // JDateTb 
+            // JDateTb
             // 
             this.JDateTb.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.JDateTb.Location = new System.Drawing.Point(32, 450);
             this.JDateTb.MinDate = new System.DateTime(2023, 1, 26, 0, 0, 0, 0);
-            this.JDateTb.Name = "JDateTb"; 
+            this.JDateTb.Name = "JDateTb";
             this.JDateTb.Size = new System.Drawing.Size(304, 30);
             this.JDateTb.TabIndex = 17;
             // 
             // AddBtn
-            //  
+            // 
             this.AddBtn.BackColor = System.Drawing.Color.Teal;
             this.AddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddBtn.ForeColor = System.Drawing.Color.White;
@@ -253,11 +253,11 @@
             this.AddBtn.Name = "AddBtn";
             this.AddBtn.Size = new System.Drawing.Size(117, 35);
             this.AddBtn.TabIndex = 18;
-            this.AddBtn.Text = "Add"; 
+            this.AddBtn.Text = "Add";
             this.AddBtn.UseVisualStyleBackColor = false;
             this.AddBtn.Click += new System.EventHandler(this.AddBtn_Click);
             // 
-            // label9 
+            // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -266,7 +266,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(78, 25);
             this.label9.TabIndex = 54;
-            this.label9.Text = "Logout"; 
+            this.label9.Text = "Logout";
             this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // pictureBox5
@@ -274,13 +274,13 @@
             this.pictureBox5.BackColor = System.Drawing.Color.White;
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(937, 131);
-            this.pictureBox5.Name = "pictureBox5"; 
+            this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(42, 28);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 53;
             this.pictureBox5.TabStop = false;
             // 
-            // label10 
+            // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -289,14 +289,15 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(74, 25);
             this.label10.TabIndex = 52;
-            this.label10.Text = "Salary"; 
+            this.label10.Text = "Salary";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.White;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(544, 131);
-            this.pictureBox4.Name = "pictureBox4"; 
+            this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(42, 28);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 51;
@@ -311,9 +312,9 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(134, 25);
             this.label11.TabIndex = 50;
-            this.label11.Text = "Departments"; 
+            this.label11.Text = "Departments";
             // 
-            // pictureBox3 
+            // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.White;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
@@ -324,7 +325,7 @@
             this.pictureBox3.TabIndex = 49;
             this.pictureBox3.TabStop = false;
             // 
-            // label12 
+            // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -332,10 +333,10 @@
             this.label12.Location = new System.Drawing.Point(392, 134);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(107, 25);
-            this.label12.TabIndex = 48; 
-            this.label12.Text = "Employee";  
+            this.label12.TabIndex = 48;
+            this.label12.Text = "Employee";
             // 
-            // pictureBox2 
+            // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Teal;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
@@ -346,27 +347,28 @@
             this.pictureBox2.TabIndex = 47;
             this.pictureBox2.TabStop = false;
             // 
-            // EmployeeList 
+            // EmployeeList
             // 
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            this.EmployeeList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.EmployeeList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
-            this.EmployeeList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.EmployeeList.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.EmployeeList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.EmployeeList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.EmployeeList.ColumnHeadersHeight = 4;
+            this.EmployeeList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.EmployeeList.DefaultCellStyle = dataGridViewCellStyle3;
             this.EmployeeList.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.EmployeeList.Location = new System.Drawing.Point(397, 206);
             this.EmployeeList.Name = "EmployeeList";
@@ -386,7 +388,7 @@
             this.EmployeeList.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.EmployeeList.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EmployeeList.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.EmployeeList.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.EmployeeList.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.EmployeeList.ThemeStyle.HeaderStyle.Height = 4;
             this.EmployeeList.ThemeStyle.ReadOnly = false;
             this.EmployeeList.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
@@ -399,28 +401,28 @@
             this.EmployeeList.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.EmployeeList_CellContentClick);
             // 
             // DeleteBtn
-            //  
+            // 
             this.DeleteBtn.BackColor = System.Drawing.Color.IndianRed;
             this.DeleteBtn.Location = new System.Drawing.Point(597, 547);
-            this.DeleteBtn.Name = "DeleteBtn"; 
+            this.DeleteBtn.Name = "DeleteBtn";
             this.DeleteBtn.Size = new System.Drawing.Size(116, 35);
             this.DeleteBtn.TabIndex = 56;
-            this.DeleteBtn.Text = "Delete"; 
+            this.DeleteBtn.Text = "Delete";
             this.DeleteBtn.UseVisualStyleBackColor = false;
             this.DeleteBtn.Click += new System.EventHandler(this.DeleteBtn_Click);
             // 
-            // UpdateBtn 
+            // UpdateBtn
             // 
             this.UpdateBtn.BackColor = System.Drawing.Color.MediumTurquoise;
             this.UpdateBtn.Location = new System.Drawing.Point(225, 550);
-            this.UpdateBtn.Name = "UpdateBtn"; 
+            this.UpdateBtn.Name = "UpdateBtn";
             this.UpdateBtn.Size = new System.Drawing.Size(111, 32);
-            this.UpdateBtn.TabIndex = 57; 
+            this.UpdateBtn.TabIndex = 57;
             this.UpdateBtn.Text = "Update";
             this.UpdateBtn.UseVisualStyleBackColor = false;
             this.UpdateBtn.Click += new System.EventHandler(this.UpdateBtn_Click);
-            //  
-            // Employees 
+            // 
+            // Employees
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;

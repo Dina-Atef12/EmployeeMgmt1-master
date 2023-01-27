@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace EmployeeMgmt1
 {
-    public partial class Employees : Form
+    public partial class Employees : Form 
     {
         Functions Con;
         public Employees()
@@ -198,6 +198,11 @@ namespace EmployeeMgmt1
             login Obj = new login();
             Obj.Show();
             this.Hide();
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Departments));
             this.DepList = new Guna.UI2.WinForms.Guna2DataGridView();
             this.label9 = new System.Windows.Forms.Label();
@@ -63,26 +63,26 @@
             // 
             // DepList
             // 
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            this.DepList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DepList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.DepList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DepList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.DepList.ColumnHeadersHeight = 25;
             this.DepList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DepList.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DepList.DefaultCellStyle = dataGridViewCellStyle3;
             this.DepList.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.DepList.Location = new System.Drawing.Point(504, 234);
             this.DepList.Name = "DepList";
@@ -182,7 +182,7 @@
             this.pictureBox3.TabIndex = 76;
             this.pictureBox3.TabStop = false;
             // 
-            // EmpLbl 
+            // EmpLbl
             // 
             this.EmpLbl.AutoSize = true;
             this.EmpLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -191,7 +191,7 @@
             this.EmpLbl.Name = "EmpLbl";
             this.EmpLbl.Size = new System.Drawing.Size(107, 25);
             this.EmpLbl.TabIndex = 75;
-            this.EmpLbl.Text = "Employee"; 
+            this.EmpLbl.Text = "Employee";
             this.EmpLbl.Click += new System.EventHandler(this.EmpLbl_Click);
             // 
             // pictureBox2
@@ -205,7 +205,7 @@
             this.pictureBox2.TabIndex = 74;
             this.pictureBox2.TabStop = false;
             // 
-            // AddBtn 
+            // AddBtn
             // 
             this.AddBtn.BackColor = System.Drawing.Color.Teal;
             this.AddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -214,7 +214,7 @@
             this.AddBtn.Name = "AddBtn";
             this.AddBtn.Size = new System.Drawing.Size(117, 35);
             this.AddBtn.TabIndex = 72;
-            this.AddBtn.Text = "Add"; 
+            this.AddBtn.Text = "Add";
             this.AddBtn.UseVisualStyleBackColor = false;
             this.AddBtn.Click += new System.EventHandler(this.AddBtn_Click);
             // 
@@ -222,22 +222,22 @@
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(499, 9);
+            this.label1.Location = new System.Drawing.Point(499, 29);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(369, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Employee mangement system version 10";
             // 
-            // EditBtn 
+            // EditBtn
             // 
             this.EditBtn.BackColor = System.Drawing.Color.Turquoise;
             this.EditBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EditBtn.ForeColor = System.Drawing.Color.Black;
             this.EditBtn.Location = new System.Drawing.Point(219, 275);
-            this.EditBtn.Name = "EditBtn"; 
+            this.EditBtn.Name = "EditBtn";
             this.EditBtn.Size = new System.Drawing.Size(117, 35);
             this.EditBtn.TabIndex = 73;
-            this.EditBtn.Text = "Update"; 
+            this.EditBtn.Text = "Update";
             this.EditBtn.UseVisualStyleBackColor = false;
             this.EditBtn.Click += new System.EventHandler(this.EditBtn_Click);
             // 
@@ -246,7 +246,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Teal;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(105, 116);
-            this.pictureBox1.Name = "pictureBox1"; 
+            this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(61, 45);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 67;
@@ -261,11 +261,11 @@
             this.panel2.Size = new System.Drawing.Size(1388, 29);
             this.panel2.TabIndex = 66;
             // 
-            // DepNameTb 
+            // DepNameTb
             // 
             this.DepNameTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DepNameTb.Location = new System.Drawing.Point(32, 206);
-            this.DepNameTb.Name = "DepNameTb"; 
+            this.DepNameTb.Name = "DepNameTb";
             this.DepNameTb.Size = new System.Drawing.Size(304, 30);
             this.DepNameTb.TabIndex = 59;
             // 
@@ -275,7 +275,7 @@
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Teal;
             this.label6.Location = new System.Drawing.Point(27, 178);
-            this.label6.Name = "label6"; 
+            this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(182, 25);
             this.label6.TabIndex = 58;
             this.label6.Text = "Department name";
@@ -289,7 +289,8 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(206, 25);
             this.label2.TabIndex = 57;
-            this.label2.Text = "Mange Departments"; 
+            this.label2.Text = "Mange Departments";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // panel1
             // 
@@ -306,24 +307,24 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Teal;
-            this.label3.Location = new System.Drawing.Point(553, 206);
+            this.label3.Location = new System.Drawing.Point(856, 209);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(148, 25);
             this.label3.TabIndex = 83;
-            this.label3.Text = "Department List"; 
+            this.label3.Text = "Department List";
             // 
-            // DeleteBtn 
+            // DeleteBtn
             // 
             this.DeleteBtn.BackColor = System.Drawing.Color.Coral;
             this.DeleteBtn.Location = new System.Drawing.Point(134, 329);
             this.DeleteBtn.Name = "DeleteBtn";
             this.DeleteBtn.Size = new System.Drawing.Size(102, 38);
             this.DeleteBtn.TabIndex = 84;
-            this.DeleteBtn.Text = "Delete"; 
+            this.DeleteBtn.Text = "Delete";
             this.DeleteBtn.UseVisualStyleBackColor = false;
             this.DeleteBtn.Click += new System.EventHandler(this.DeleteBtn_Click);
             // 
-            // Departments 
+            // Departments
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
