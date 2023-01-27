@@ -53,7 +53,7 @@ namespace EmployeeMgmt1
         }
         private void ShowSalary()
         {
-            try
+            try 
             {
                 string Query = "Select * from SalaryTb1";
                 SalaryList.DataSource = Con.GetData(Query);
