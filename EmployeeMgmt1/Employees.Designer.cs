@@ -128,7 +128,7 @@
             // 
             this.EmpNameTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EmpNameTb.Location = new System.Drawing.Point(32, 206);
-            this.EmpNameTb.Name = "EmpNameTb";
+            this.EmpNameTb.Name = "EmpNameTb"; 
             this.EmpNameTb.Size = new System.Drawing.Size(304, 30);
             this.EmpNameTb.TabIndex = 7;
             this.EmpNameTb.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
