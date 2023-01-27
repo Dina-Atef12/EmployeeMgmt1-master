@@ -170,7 +170,7 @@ namespace EmployeeMgmt1
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(156, 25);
             this.label3.TabIndex = 38;
-            this.label3.Text = "Department list";
+            this.label3.Text = "Department list"; 
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // pictureBox2
