@@ -194,7 +194,7 @@
             this.panel2.Size = new System.Drawing.Size(1388, 29);
             this.panel2.TabIndex = 12;
             // 
-            // pictureBox1
+            // pictureBox1 
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Teal;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
