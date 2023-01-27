@@ -104,7 +104,7 @@ namespace EmployeeMgmt1
         private void LogoutLbl_Click(object sender, EventArgs e)
         {
             login Obj = new login(); 
-            Obj.Show();
+            Obj.Show(); 
             this.Hide();
         }
 
