@@ -235,7 +235,7 @@
             this.DOBTb.Size = new System.Drawing.Size(304, 30);
             this.DOBTb.TabIndex = 16;
             // 
-            // JDateTb
+            // JDateTb 
             // 
             this.JDateTb.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.JDateTb.Location = new System.Drawing.Point(32, 450);
