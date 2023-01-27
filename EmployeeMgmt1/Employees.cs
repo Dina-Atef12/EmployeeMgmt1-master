@@ -144,9 +144,9 @@ namespace EmployeeMgmt1
 
         private void UpdateBtn_Click(object sender, EventArgs e) 
         {
-            try
+            try 
             {
-                if (EmpNameTb.Text == "" || GenCb.SelectedIndex == -1 || DepCb.SelectedIndex == -1 || DailySalTb.Text == "")
+                 if (EmpNameTb.Text == "" || GenCb.SelectedIndex == -1 || DepCb.SelectedIndex == -1 || DailySalTb.Text == "")
                 {
                     MessageBox.Show("missing data!!!");
                 }
