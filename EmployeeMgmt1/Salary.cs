@@ -45,7 +45,7 @@ namespace EmployeeMgmt1
             {
                 AmountTb.Text = "" +(d * DSal);
             }
-            else
+            else 
             {
                 d = Convert.ToInt32(DaysTb.Text);
                 AmountTb.Text = "Rs" + (d * DSal);
