@@ -217,7 +217,7 @@
             this.GenCb.TabIndex = 14;
             this.GenCb.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // DepCb
+            // DepCb 
             // 
             this.DepCb.FormattingEnabled = true;
             this.DepCb.Location = new System.Drawing.Point(32, 328);
