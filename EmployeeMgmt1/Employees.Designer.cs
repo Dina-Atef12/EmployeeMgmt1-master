@@ -124,7 +124,7 @@
             this.label6.Text = "Employee name"; 
             this.label6.Click += new System.EventHandler(this.label3_Click);
             // 
-            // EmpNameTb
+            // EmpNameTb 
             // 
             this.EmpNameTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EmpNameTb.Location = new System.Drawing.Point(32, 206);
