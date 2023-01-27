@@ -221,7 +221,7 @@
             // 
             this.DepCb.FormattingEnabled = true;
             this.DepCb.Location = new System.Drawing.Point(32, 328);
-            this.DepCb.Name = "DepCb";
+            this.DepCb.Name = "DepCb"; 
             this.DepCb.Size = new System.Drawing.Size(304, 33);
             this.DepCb.TabIndex = 15;
             // 
