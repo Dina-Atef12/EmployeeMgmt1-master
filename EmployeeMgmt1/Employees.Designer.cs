@@ -121,7 +121,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(166, 25);
             this.label6.TabIndex = 6;
-            this.label6.Text = "Employee name";
+            this.label6.Text = "Employee name"; 
             this.label6.Click += new System.EventHandler(this.label3_Click);
             // 
             // EmpNameTb
