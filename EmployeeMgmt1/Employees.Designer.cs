@@ -415,11 +415,11 @@
             this.UpdateBtn.Location = new System.Drawing.Point(225, 550);
             this.UpdateBtn.Name = "UpdateBtn"; 
             this.UpdateBtn.Size = new System.Drawing.Size(111, 32);
-            this.UpdateBtn.TabIndex = 57;
+            this.UpdateBtn.TabIndex = 57; 
             this.UpdateBtn.Text = "Update";
             this.UpdateBtn.UseVisualStyleBackColor = false;
             this.UpdateBtn.Click += new System.EventHandler(this.UpdateBtn_Click);
-            // 
+            //  
             // Employees 
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
