@@ -21,7 +21,7 @@ namespace EmployeeMgmt1
             ShowSalary();
             GetEmployees();
         }
-        private void GetEmployees()
+        private void GetEmployees() 
         {
             string Query = "Select * from EmployeeTb1";
             EmpCb.DisplayMember = Con.GetData(Query).Columns["EmpName"].ToString();
