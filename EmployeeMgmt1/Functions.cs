@@ -15,7 +15,7 @@ namespace EmployeeMgmt1
         private DataTable dt;
         private SqlDataAdapter sda;
         private String ConStr;
-        public Functions() 
+        public Functions()
         {
             ConStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\ENG-Mohamed Hassan\Documents\EmpDb.mdf"";Integrated Security=True;Connect Timeout=30";
             Con = new SqlConnection(ConStr);
