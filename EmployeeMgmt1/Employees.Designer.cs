@@ -399,7 +399,7 @@
             this.EmployeeList.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.EmployeeList_CellContentClick);
             // 
             // DeleteBtn
-            // 
+            //  
             this.DeleteBtn.BackColor = System.Drawing.Color.IndianRed;
             this.DeleteBtn.Location = new System.Drawing.Point(597, 547);
             this.DeleteBtn.Name = "DeleteBtn";
