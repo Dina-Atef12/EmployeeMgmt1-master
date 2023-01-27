@@ -12,7 +12,7 @@ namespace EmployeeMgmt1
 {
     public partial class login : Form
     {
-        public login()
+        public login() 
         {
             InitializeComponent();
         }
