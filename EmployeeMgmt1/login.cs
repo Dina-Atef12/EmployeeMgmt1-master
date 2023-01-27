@@ -34,7 +34,7 @@ namespace EmployeeMgmt1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(UNameTb.Text == "" || PasswordTb.Text == "")
+            if(UNameTb.Text == "" || PasswordTb.Text == "") 
             {
                 MessageBox.Show("Missing Data!!!");
             }
