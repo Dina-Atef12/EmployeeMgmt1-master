@@ -413,7 +413,7 @@
             // 
             this.UpdateBtn.BackColor = System.Drawing.Color.MediumTurquoise;
             this.UpdateBtn.Location = new System.Drawing.Point(225, 550);
-            this.UpdateBtn.Name = "UpdateBtn";
+            this.UpdateBtn.Name = "UpdateBtn"; 
             this.UpdateBtn.Size = new System.Drawing.Size(111, 32);
             this.UpdateBtn.TabIndex = 57;
             this.UpdateBtn.Text = "Update";
