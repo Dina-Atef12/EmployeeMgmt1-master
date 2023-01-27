@@ -332,10 +332,10 @@
             this.label12.Location = new System.Drawing.Point(392, 134);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(107, 25);
-            this.label12.TabIndex = 48;
+            this.label12.TabIndex = 48; 
             this.label12.Text = "Employee"; 
             // 
-            // pictureBox2
+            // pictureBox2 
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Teal;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
