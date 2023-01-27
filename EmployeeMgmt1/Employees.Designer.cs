@@ -240,7 +240,7 @@
             this.JDateTb.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.JDateTb.Location = new System.Drawing.Point(32, 450);
             this.JDateTb.MinDate = new System.DateTime(2023, 1, 26, 0, 0, 0, 0);
-            this.JDateTb.Name = "JDateTb";
+            this.JDateTb.Name = "JDateTb"; 
             this.JDateTb.Size = new System.Drawing.Size(304, 30);
             this.JDateTb.TabIndex = 17;
             // 
