@@ -274,7 +274,7 @@
             this.pictureBox5.BackColor = System.Drawing.Color.White;
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(937, 131);
-            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Name = "pictureBox5"; 
             this.pictureBox5.Size = new System.Drawing.Size(42, 28);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 53;
