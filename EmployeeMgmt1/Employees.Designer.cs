@@ -313,7 +313,7 @@
             this.label11.TabIndex = 50;
             this.label11.Text = "Departments"; 
             // 
-            // pictureBox3
+            // pictureBox3 
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.White;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
