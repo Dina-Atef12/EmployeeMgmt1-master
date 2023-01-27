@@ -171,7 +171,7 @@ namespace EmployeeMgmt1
             }
             catch (Exception Ex) 
             {
-                MessageBox.Show(Ex.Message);
+                MessageBox.Show(Ex.Message); 
             }
         }
         int key = 0;
