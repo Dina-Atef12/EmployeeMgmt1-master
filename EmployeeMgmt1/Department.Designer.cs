@@ -263,7 +263,7 @@ namespace EmployeeMgmt1
             this.pictureBox5.TabIndex = 45;
             this.pictureBox5.TabStop = false;
             // 
-            // DipList
+            // DipList 
             // 
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
             this.DipList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
