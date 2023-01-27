@@ -89,7 +89,7 @@ namespace EmployeeMgmt1
                     DaysTb.Text = ""; 
                 }
             }
-            catch(Exception Ex) 
+            catch(Exception Ex)  
             {
                 MessageBox.Show(Ex.Message);
             }
