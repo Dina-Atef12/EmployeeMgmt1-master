@@ -402,7 +402,7 @@
             //  
             this.DeleteBtn.BackColor = System.Drawing.Color.IndianRed;
             this.DeleteBtn.Location = new System.Drawing.Point(597, 547);
-            this.DeleteBtn.Name = "DeleteBtn";
+            this.DeleteBtn.Name = "DeleteBtn"; 
             this.DeleteBtn.Size = new System.Drawing.Size(116, 35);
             this.DeleteBtn.TabIndex = 56;
             this.DeleteBtn.Text = "Delete";
