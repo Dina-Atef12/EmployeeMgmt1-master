@@ -86,7 +86,7 @@ namespace EmployeeMgmt1
                     Con.SetData(Query);
                     ShowSalary();
                     MessageBox.Show("Salary  Paid!!!"); 
-                    DaysTb.Text = "";
+                    DaysTb.Text = ""; 
                 }
             }
             catch(Exception Ex) 
