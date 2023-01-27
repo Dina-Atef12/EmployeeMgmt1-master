@@ -58,7 +58,7 @@ namespace EmployeeMgmt1
                 string Query = "Select * from SalaryTb1";
                 SalaryList.DataSource = Con.GetData(Query);
             }
-            catch (Exception)
+            catch (Exception) 
             {
                 throw;
             }
