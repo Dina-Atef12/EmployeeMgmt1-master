@@ -152,7 +152,7 @@ namespace EmployeeMgmt1
             this.label1.Text = "Employee mangement system version 10"; 
             // 
             // panel1
-            // 
+            //  
             this.panel1.BackColor = System.Drawing.Color.Teal;
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
