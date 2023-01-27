@@ -253,7 +253,7 @@
             this.AddBtn.Name = "AddBtn";
             this.AddBtn.Size = new System.Drawing.Size(117, 35);
             this.AddBtn.TabIndex = 18;
-            this.AddBtn.Text = "Add";
+            this.AddBtn.Text = "Add"; 
             this.AddBtn.UseVisualStyleBackColor = false;
             this.AddBtn.Click += new System.EventHandler(this.AddBtn_Click);
             // 
