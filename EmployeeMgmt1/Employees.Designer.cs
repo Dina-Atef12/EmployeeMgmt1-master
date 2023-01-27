@@ -225,7 +225,7 @@
             this.DepCb.Size = new System.Drawing.Size(304, 33);
             this.DepCb.TabIndex = 15;
             // 
-            // DOBTb
+            // DOBTb 
             // 
             this.DOBTb.CalendarTitleBackColor = System.Drawing.SystemColors.ControlText;
             this.DOBTb.CalendarTitleForeColor = System.Drawing.Color.AliceBlue;
