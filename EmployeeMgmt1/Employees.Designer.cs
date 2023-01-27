@@ -289,7 +289,7 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(74, 25);
             this.label10.TabIndex = 52;
-            this.label10.Text = "Salary";
+            this.label10.Text = "Salary"; 
             // 
             // pictureBox4
             // 
