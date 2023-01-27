@@ -77,7 +77,7 @@ namespace EmployeeMgmt1
             this.EditBtn.UseVisualStyleBackColor = false;
             this.EditBtn.Click += new System.EventHandler(this.EditBtn_Click);
             // 
-            // AddBtn
+            // AddBtn 
             // 
             this.AddBtn.BackColor = System.Drawing.Color.Teal;
             this.AddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
