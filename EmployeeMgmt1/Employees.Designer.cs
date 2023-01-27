@@ -110,7 +110,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(224, 25);
             this.label5.TabIndex = 10;
-            this.label5.Text = "Employee Department";
+            this.label5.Text = "Employee Department"; 
             // 
             // label6
             // 
