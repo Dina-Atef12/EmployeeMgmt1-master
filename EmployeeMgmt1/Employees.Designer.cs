@@ -311,7 +311,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(134, 25);
             this.label11.TabIndex = 50;
-            this.label11.Text = "Departments";
+            this.label11.Text = "Departments"; 
             // 
             // pictureBox3
             // 
