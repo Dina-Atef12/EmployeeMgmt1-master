@@ -231,7 +231,7 @@
             this.DOBTb.CalendarTitleForeColor = System.Drawing.Color.AliceBlue;
             this.DOBTb.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.DOBTb.Location = new System.Drawing.Point(32, 389);
-            this.DOBTb.Name = "DOBTb";
+            this.DOBTb.Name = "DOBTb"; 
             this.DOBTb.Size = new System.Drawing.Size(304, 30);
             this.DOBTb.TabIndex = 16;
             // 
