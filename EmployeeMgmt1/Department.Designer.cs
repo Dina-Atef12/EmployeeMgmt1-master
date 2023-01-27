@@ -226,7 +226,7 @@ namespace EmployeeMgmt1
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(74, 25);
             this.label7.TabIndex = 44;
-            this.label7.Text = "Salary";
+            this.label7.Text = "Salary"; 
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // pictureBox4
