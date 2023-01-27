@@ -346,7 +346,7 @@
             this.pictureBox2.TabIndex = 47;
             this.pictureBox2.TabStop = false;
             // 
-            // EmployeeList
+            // EmployeeList 
             // 
             dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
             this.EmployeeList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
