@@ -2,8 +2,8 @@
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace EmployeeMgmt1
-{
+namespace EmployeeMgmt1 
+{ 
     partial class Department
     {
         /// <summary>
