@@ -212,7 +212,7 @@
             "Male",
             "Female"});
             this.GenCb.Location = new System.Drawing.Point(32, 264);
-            this.GenCb.Name = "GenCb";
+            this.GenCb.Name = "GenCb"; 
             this.GenCb.Size = new System.Drawing.Size(304, 33);
             this.GenCb.TabIndex = 14;
             this.GenCb.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
