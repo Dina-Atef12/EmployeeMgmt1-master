@@ -21,7 +21,7 @@ namespace EmployeeMgmt1
             Con = new SqlConnection(ConStr);
             Cmd = new SqlCommand();
             Cmd.Connection = Con;
-        } 
+        }
         public DataTable GetData(string Query)
         {
             dt = new DataTable();
@@ -32,7 +32,7 @@ namespace EmployeeMgmt1
         public int SetData(String Query) 
         {
             int cnt = 0;
-            if(Con.State == ConnectionState.Closed)
+            if(Con.State == ConnectionState.Closed) 
             {
                 Con.Open();
             }
