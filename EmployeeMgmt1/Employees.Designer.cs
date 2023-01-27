@@ -409,7 +409,7 @@
             this.DeleteBtn.UseVisualStyleBackColor = false;
             this.DeleteBtn.Click += new System.EventHandler(this.DeleteBtn_Click);
             // 
-            // UpdateBtn
+            // UpdateBtn 
             // 
             this.UpdateBtn.BackColor = System.Drawing.Color.MediumTurquoise;
             this.UpdateBtn.Location = new System.Drawing.Point(225, 550);
