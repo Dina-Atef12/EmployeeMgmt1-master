@@ -280,7 +280,7 @@
             this.pictureBox5.TabIndex = 53;
             this.pictureBox5.TabStop = false;
             // 
-            // label10
+            // label10 
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
