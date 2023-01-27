@@ -252,7 +252,7 @@ namespace EmployeeMgmt1
             this.label8.TabIndex = 46;
             this.label8.Text = "Logout"; 
             // 
-            // pictureBox5
+            // pictureBox5 
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.White;
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
