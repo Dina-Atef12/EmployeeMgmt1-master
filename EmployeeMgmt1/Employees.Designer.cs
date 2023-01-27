@@ -175,7 +175,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(229, 25);
             this.label4.TabIndex = 8;
-            this.label4.Text = "Employee Daily Salary";
+            this.label4.Text = "Employee Daily Salary"; 
             // 
             // DailySalTb
             // 
