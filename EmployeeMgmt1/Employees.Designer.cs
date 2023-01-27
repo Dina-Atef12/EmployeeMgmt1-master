@@ -153,7 +153,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(184, 25);
             this.label8.TabIndex = 8;
-            this.label8.Text = "Employee Gander";
+            this.label8.Text = "Employee Gander"; 
             // 
             // label3
             // 
