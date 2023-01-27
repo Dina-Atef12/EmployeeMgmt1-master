@@ -173,7 +173,7 @@ namespace EmployeeMgmt1
             this.label3.Text = "Department list"; 
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // pictureBox2
+            // pictureBox2 
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Teal;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
